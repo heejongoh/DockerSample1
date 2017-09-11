@@ -6,6 +6,7 @@ MAINTAINER 0.1 heejong oh
 
 # 3.Apache HTTP Server Install
 RUN yum -y install httpd
+RUN yum -y install ntop
 
 # 4.Web Contents
 ADD html/ /var/www/html/
