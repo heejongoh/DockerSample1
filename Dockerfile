@@ -1,3 +1,3 @@
-# 1.베이스 이미지 지정 
+# Image Base Select
 FROM centos:latest
 
